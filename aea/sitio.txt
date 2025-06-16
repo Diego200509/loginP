@@ -1,0 +1,6 @@
+https://start.spring.io/
+
+
+
+
+"Quiero implementar un sistema de login en Spring Boot con Spring Security, usando Thymeleaf y conexión a MySQL. Deseo que existan roles. El login debe funcionar por correo y contraseña. Debe incluir autenticación personalizada con UserDetailsService, controlador de vistas, formularios HTML y configuración moderna compatible con Spring Security 6+. No deseo encriptar contraseñas por ahora."
