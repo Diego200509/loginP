@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Página de inicio</title>
+</head>
+<body>
+<h2>Bienvenido, <span th:text="${#authentication.name}">usuario</span>!</h2>
+
+<p>Tu rol es: <span th:text="${#authentication.authorities}">rol</span></p>
+
+<a th:href="@{/logout}">Cerrar sesión</a>
+</body>
+</html>
