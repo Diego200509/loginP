@@ -1,8 +1,6 @@
 package com.prueba.prueba.entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 import lombok.Data;
 
 @Data
@@ -14,5 +12,6 @@ public class Usuario {
     private String nombre;
     private String email;
     private String password;
-    private String rol;
+    @Enumerated(EnumType.STRING)
+    private Rol rol;
 }
